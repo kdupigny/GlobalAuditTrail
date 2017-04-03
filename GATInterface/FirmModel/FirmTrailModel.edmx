@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="FirmTrailModel.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.6" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2006/04/edm/ssdl">
+        <EntityContainer Name="FirmTrailModelStoreContainer">
+          <EntitySet Name="fills" EntityType="FirmTrailModel.Store.fills" store:Type="Tables" Schema="firmtrail" />
+          <EntitySet Name="ords" EntityType="FirmTrailModel.Store.ords" store:Type="Tables" Schema="firmtrail" />
+        </EntityContainer>
+        <EntityType Name="fills">
+          <Key>
+            <PropertyRef Name="DATE" />
+            <PropertyRef Name="ORDERID" />
+            <PropertyRef Name="CLORDID" />
+            <PropertyRef Name="EXECID" />
+          </Key>
+          <Property Name="RECORDINSERTSTAMP" Type="timestamp" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="DATE" Type="date" Nullable="false" />
+          <Property Name="SENDERCOMP" Type="varchar" MaxLength="20" />
+          <Property Name="TARGETCOMP" Type="varchar" MaxLength="20" />
+          <Property Name="ORDERID" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="CLORDID" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="EXECID" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="messagetype" Type="varchar" MaxLength="15" />
+          <Property Name="EXECTYPE" Type="varchar" Nullable="false" MaxLength="20" />
+          <Property Name="SYMBOL" Type="varchar" Nullable="false" MaxLength="20" />
+          <Property Name="SIDE" Type="varchar" Nullable="false" MaxLength="4" />
+          <Property Name="ORDERQTY" Type="int" />
+          <Property Name="QTY" Type="int" Nullable="false" />
+          <Property Name="PRICE" Type="double" Nullable="false" />
+          <Property Name="FILLPX" Type="double" Nullable="false" />
+          <Property Name="AVGPX" Type="double" Nullable="false" />
+          <Property Name="TIMESTAMP" Type="timestamp" Nullable="false" />
+          <Property Name="TIF" Type="varchar" MaxLength="5" />
+          <Property Name="CLIENTID" Type="varchar" MaxLength="30" />
+          <Property Name="TRADERINT" Type="varchar" MaxLength="30" />
+          <Property Name="ACC" Type="varchar" MaxLength="30" />
+          <Property Name="CLEARACC" Type="varchar" MaxLength="30" />
+          <Property Name="LIQUIDITYIND" Type="varchar" MaxLength="5" />
+          <Property Name="PRODUCTTYPE" Type="varchar" MaxLength="15" />
+          <Property Name="SECURITYID" Type="varchar" MaxLength="20" />
+          <Property Name="SECURITYIDSOURCE" Type="varchar" MaxLength="10" />
+          <Property Name="ACCRUEDINTAMT" Type="varchar" MaxLength="15" />
+          <Property Name="ROUTE" Type="varchar" MaxLength="60" />
+          <Property Name="EXCHANGE" Type="varchar" MaxLength="10" />
+          <Property Name="BROKER" Type="varchar" Nullable="false" MaxLength="20" />
+          <Property Name="EXPIRATIONDATE" Type="date" />
+          <Property Name="MATURITYDATE" Type="date" />
+          <Property Name="SETTLEDATE" Type="date" />
+          <Property Name="PUTCALL" Type="varchar" MaxLength="4" />
+          <Property Name="STRIKEPX" Type="float" Nullable="false" />
+          <Property Name="COUPONRATE" Type="varchar" Nullable="false" MaxLength="10" />
+          <Property Name="GROSSTRADEAMT" Type="varchar" Nullable="false" MaxLength="15" />
+          <Property Name="NETPRINCIPAL" Type="int" Nullable="false" />
+          <Property Name="COMMISSION" Type="double" Nullable="false" />
+          <Property Name="EXCHANGEFEE" Type="double" Nullable="false" />
+          <Property Name="REGFEE" Type="double" Nullable="false" />
+          <Property Name="OCCFEE" Type="double" Nullable="false" />
+          <Property Name="OTHERFEE" Type="double" Nullable="false" />
+          <Property Name="DESCRIPTION" Type="text" Nullable="false" />
+          <Property Name="SOURCE" Type="varchar" Nullable="false" MaxLength="60" />
+        </EntityType>
+        <EntityType Name="ords">
+          <Key>
+            <PropertyRef Name="DATE" />
+            <PropertyRef Name="CLORDID" />
+            <PropertyRef Name="ORIGCLORDID" />
+            <PropertyRef Name="MESSAGETYPE" />
+          </Key>
+          <Property Name="RECORDINSERTSTAMP" Type="timestamp" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="DATE" Type="date" Nullable="false" />
+          <Property Name="CLIENTID" Type="varchar" Nullable="false" MaxLength="30" />
+          <Property Name="ORDERID" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="CLORDID" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="ORIGCLORDID" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="MESSAGETYPE" Type="varchar" Nullable="false" MaxLength="10" />
+          <Property Name="SYMBOL" Type="varchar" Nullable="false" MaxLength="15" />
+          <Property Name="SIDE" Type="varchar" Nullable="false" MaxLength="10" />
+          <Property Name="ORDQTY" Type="int" Nullable="false" />
+          <Property Name="TIF" Type="varchar" Nullable="false" MaxLength="30" />
+          <Property Name="ACC" Type="varchar" Nullable="false" MaxLength="60" />
+          <Property Name="TRADERINT" Type="varchar" Nullable="false" MaxLength="30" />
+          <Property Name="ORDTYPE" Type="varchar" Nullable="false" MaxLength="30" />
+          <Property Name="LIMITPX" Type="double" Nullable="false" />
+          <Property Name="STOPPX" Type="double" Nullable="false" />
+          <Property Name="ORDERVALUE" Type="double" />
+          <Property Name="MAXFLOOR" Type="varchar" Nullable="false" MaxLength="20" />
+          <Property Name="TEXT" Type="text" Nullable="false" />
+          <Property Name="ACCTYPE" Type="varchar" Nullable="false" MaxLength="30" />
+          <Property Name="STRATEGY" Type="varchar" Nullable="false" MaxLength="30" />
+          <Property Name="STARTTIME" Type="varchar" Nullable="false" MaxLength="30" />
+          <Property Name="ENDTIME" Type="varchar" Nullable="false" MaxLength="30" />
+          <Property Name="IDSOURCE" Type="varchar" Nullable="false" MaxLength="20" />
+          <Property Name="SECURITYID" Type="varchar" Nullable="false" MaxLength="60" />
+          <Property Name="SECURITYEXCH" Type="varchar" Nullable="false" MaxLength="30" />
+          <Property Name="PEGTYPE" Type="varchar" Nullable="false" MaxLength="30" />
+          <Property Name="SENDINGTIME" Type="varchar" Nullable="false" MaxLength="30" />
+          <Property Name="TRIGGERTIME" Type="varchar" Nullable="false" MaxLength="30" />
+          <Property Name="RECEIVETIME" Type="varchar" Nullable="false" MaxLength="30" />
+          <Property Name="SENDERCOMP" Type="varchar" Nullable="false" MaxLength="20" />
+          <Property Name="TARGETCOMP" Type="varchar" Nullable="false" MaxLength="20" />
+          <Property Name="ONBEHALF" Type="varchar" Nullable="false" MaxLength="20" />
+          <Property Name="RULE80A" Type="varchar" Nullable="false" MaxLength="30" />
+          <Property Name="SOURCE" Type="varchar" Nullable="false" MaxLength="50" />
+        </EntityType>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="FirmTrailModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2006/04/edm">
+        <EntityContainer Name="firmtrailEntities1">
+          <EntitySet Name="FirmExecutions" EntityType="FirmTrailModel.FirmExecution" />
+          <EntitySet Name="FirmOrders" EntityType="FirmTrailModel.FirmOrder" />
+        </EntityContainer>
+        <EntityType Name="FirmExecution">
+          <Key>
+            <PropertyRef Name="DATE" />
+            <PropertyRef Name="ORDERID" />
+            <PropertyRef Name="CLORDID" />
+            <PropertyRef Name="EXECID" />
+          </Key>
+          <Property Name="RECORDINSERTSTAMP" Type="DateTime" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DATE" Type="DateTime" Nullable="false" />
+          <Property Name="SENDERCOMP" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="TARGETCOMP" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="ORDERID" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="CLORDID" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="EXECID" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="MESSAGETYPE" Type="String" MaxLength="15" Unicode="false" FixedLength="false" />
+          <Property Name="EXECTYPE" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="SYMBOL" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="SIDE" Type="String" Nullable="false" MaxLength="4" Unicode="false" FixedLength="false" />
+          <Property Name="ORDERQTY" Type="Int32" />
+          <Property Name="QTY" Type="Int32" Nullable="false" />
+          <Property Name="PRICE" Type="Double" Nullable="false" />
+          <Property Name="FILLPX" Type="Double" Nullable="false" />
+          <Property Name="AVGPX" Type="Double" Nullable="false" />
+          <Property Name="TIMESTAMP" Type="DateTime" Nullable="false" />
+          <Property Name="TIF" Type="String" MaxLength="5" Unicode="false" FixedLength="false" />
+          <Property Name="CLIENTID" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="TRADERINT" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="ACC" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="CLEARACC" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="LIQUIDITYIND" Type="String" MaxLength="5" Unicode="false" FixedLength="false" />
+          <Property Name="PRODUCTTYPE" Type="String" MaxLength="15" Unicode="false" FixedLength="false" />
+          <Property Name="SECURITYID" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="SECURITYIDSOURCE" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="ACCRUEDINTAMT" Type="String" MaxLength="15" Unicode="false" FixedLength="false" />
+          <Property Name="ROUTE" Type="String" MaxLength="60" Unicode="false" FixedLength="false" />
+          <Property Name="EXCHANGE" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="BROKER" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="EXPIRATIONDATE" Type="DateTime" />
+          <Property Name="MATURITYDATE" Type="DateTime" />
+          <Property Name="SETTLEDATE" Type="DateTime" />
+          <Property Name="PUTCALL" Type="String" MaxLength="4" Unicode="false" FixedLength="false" />
+          <Property Name="STRIKEPX" Type="Single" Nullable="false" />
+          <Property Name="COUPONRATE" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="GROSSTRADEAMT" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
+          <Property Name="NETPRINCIPAL" Type="Int32" Nullable="false" />
+          <Property Name="COMMISSION" Type="Double" Nullable="false" />
+          <Property Name="EXCHANGEFEE" Type="Double" Nullable="false" />
+          <Property Name="REGFEE" Type="Double" Nullable="false" />
+          <Property Name="OCCFEE" Type="Double" Nullable="false" />
+          <Property Name="OTHERFEE" Type="Double" Nullable="false" />
+          <Property Name="DESCRIPTION" Type="String" Nullable="false" MaxLength="65535" Unicode="false" FixedLength="false" />
+          <Property Name="SOURCE" Type="String" Nullable="false" MaxLength="60" Unicode="false" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="FirmOrder">
+          <Key>
+            <PropertyRef Name="DATE" />
+            <PropertyRef Name="CLORDID" />
+            <PropertyRef Name="ORIGCLORDID" />
+            <PropertyRef Name="MESSAGETYPE" />
+          </Key>
+          <Property Name="RECORDINSERTSTAMP" Type="DateTime" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DATE" Type="DateTime" Nullable="false" />
+          <Property Name="CLIENTID" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="ORDERID" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="CLORDID" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="ORIGCLORDID" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="MESSAGETYPE" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="SYMBOL" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
+          <Property Name="SIDE" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="ORDQTY" Type="Int32" Nullable="false" />
+          <Property Name="TIF" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="ACC" Type="String" Nullable="false" MaxLength="60" Unicode="false" FixedLength="false" />
+          <Property Name="TRADERINT" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="ORDTYPE" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="LIMITPX" Type="Double" Nullable="false" />
+          <Property Name="STOPPX" Type="Double" Nullable="false" />
+          <Property Name="ORDERVALUE" Type="Double" />
+          <Property Name="MAXFLOOR" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="TEXT" Type="String" Nullable="false" MaxLength="65535" Unicode="false" FixedLength="false" />
+          <Property Name="ACCTYPE" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="STRATEGY" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="STARTTIME" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="ENDTIME" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="IDSOURCE" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="SECURITYID" Type="String" Nullable="false" MaxLength="60" Unicode="false" FixedLength="false" />
+          <Property Name="SECURITYEXCH" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="PEGTYPE" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="SENDINGTIME" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="TRIGGERTIME" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="RECEIVETIME" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="SENDERCOMP" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="TARGETCOMP" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="ONBEHALF" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="RULE80A" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="SOURCE" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="urn:schemas-microsoft-com:windows:storage:mapping:CS">
+        <EntityContainerMapping StorageEntityContainer="FirmTrailModelStoreContainer" CdmEntityContainer="firmtrailEntities1">
+          <EntitySetMapping Name="FirmExecutions">
+            <EntityTypeMapping TypeName="FirmTrailModel.FirmExecution">
+              <MappingFragment StoreEntitySet="fills">
+                <ScalarProperty Name="RECORDINSERTSTAMP" ColumnName="RECORDINSERTSTAMP" />
+                <ScalarProperty Name="DATE" ColumnName="DATE" />
+                <ScalarProperty Name="SENDERCOMP" ColumnName="SENDERCOMP" />
+                <ScalarProperty Name="TARGETCOMP" ColumnName="TARGETCOMP" />
+                <ScalarProperty Name="ORDERID" ColumnName="ORDERID" />
+                <ScalarProperty Name="CLORDID" ColumnName="CLORDID" />
+                <ScalarProperty Name="EXECID" ColumnName="EXECID" />
+                <ScalarProperty Name="MESSAGETYPE" ColumnName="messagetype" />
+                <ScalarProperty Name="EXECTYPE" ColumnName="EXECTYPE" />
+                <ScalarProperty Name="SYMBOL" ColumnName="SYMBOL" />
+                <ScalarProperty Name="SIDE" ColumnName="SIDE" />
+                <ScalarProperty Name="ORDERQTY" ColumnName="ORDERQTY" />
+                <ScalarProperty Name="QTY" ColumnName="QTY" />
+                <ScalarProperty Name="PRICE" ColumnName="PRICE" />
+                <ScalarProperty Name="FILLPX" ColumnName="FILLPX" />
+                <ScalarProperty Name="AVGPX" ColumnName="AVGPX" />
+                <ScalarProperty Name="TIMESTAMP" ColumnName="TIMESTAMP" />
+                <ScalarProperty Name="TIF" ColumnName="TIF" />
+                <ScalarProperty Name="CLIENTID" ColumnName="CLIENTID" />
+                <ScalarProperty Name="TRADERINT" ColumnName="TRADERINT" />
+                <ScalarProperty Name="ACC" ColumnName="ACC" />
+                <ScalarProperty Name="CLEARACC" ColumnName="CLEARACC" />
+                <ScalarProperty Name="LIQUIDITYIND" ColumnName="LIQUIDITYIND" />
+                <ScalarProperty Name="PRODUCTTYPE" ColumnName="PRODUCTTYPE" />
+                <ScalarProperty Name="SECURITYID" ColumnName="SECURITYID" />
+                <ScalarProperty Name="SECURITYIDSOURCE" ColumnName="SECURITYIDSOURCE" />
+                <ScalarProperty Name="ACCRUEDINTAMT" ColumnName="ACCRUEDINTAMT" />
+                <ScalarProperty Name="ROUTE" ColumnName="ROUTE" />
+                <ScalarProperty Name="EXCHANGE" ColumnName="EXCHANGE" />
+                <ScalarProperty Name="BROKER" ColumnName="BROKER" />
+                <ScalarProperty Name="EXPIRATIONDATE" ColumnName="EXPIRATIONDATE" />
+                <ScalarProperty Name="MATURITYDATE" ColumnName="MATURITYDATE" />
+                <ScalarProperty Name="SETTLEDATE" ColumnName="SETTLEDATE" />
+                <ScalarProperty Name="PUTCALL" ColumnName="PUTCALL" />
+                <ScalarProperty Name="STRIKEPX" ColumnName="STRIKEPX" />
+                <ScalarProperty Name="COUPONRATE" ColumnName="COUPONRATE" />
+                <ScalarProperty Name="GROSSTRADEAMT" ColumnName="GROSSTRADEAMT" />
+                <ScalarProperty Name="NETPRINCIPAL" ColumnName="NETPRINCIPAL" />
+                <ScalarProperty Name="COMMISSION" ColumnName="COMMISSION" />
+                <ScalarProperty Name="EXCHANGEFEE" ColumnName="EXCHANGEFEE" />
+                <ScalarProperty Name="REGFEE" ColumnName="REGFEE" />
+                <ScalarProperty Name="OCCFEE" ColumnName="OCCFEE" />
+                <ScalarProperty Name="OTHERFEE" ColumnName="OTHERFEE" />
+                <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+                <ScalarProperty Name="SOURCE" ColumnName="SOURCE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FirmOrders">
+            <EntityTypeMapping TypeName="FirmTrailModel.FirmOrder">
+              <MappingFragment StoreEntitySet="ords">
+                <ScalarProperty Name="RECORDINSERTSTAMP" ColumnName="RECORDINSERTSTAMP" />
+                <ScalarProperty Name="DATE" ColumnName="DATE" />
+                <ScalarProperty Name="CLIENTID" ColumnName="CLIENTID" />
+                <ScalarProperty Name="ORDERID" ColumnName="ORDERID" />
+                <ScalarProperty Name="CLORDID" ColumnName="CLORDID" />
+                <ScalarProperty Name="ORIGCLORDID" ColumnName="ORIGCLORDID" />
+                <ScalarProperty Name="MESSAGETYPE" ColumnName="MESSAGETYPE" />
+                <ScalarProperty Name="SYMBOL" ColumnName="SYMBOL" />
+                <ScalarProperty Name="SIDE" ColumnName="SIDE" />
+                <ScalarProperty Name="ORDQTY" ColumnName="ORDQTY" />
+                <ScalarProperty Name="TIF" ColumnName="TIF" />
+                <ScalarProperty Name="ACC" ColumnName="ACC" />
+                <ScalarProperty Name="TRADERINT" ColumnName="TRADERINT" />
+                <ScalarProperty Name="ORDTYPE" ColumnName="ORDTYPE" />
+                <ScalarProperty Name="LIMITPX" ColumnName="LIMITPX" />
+                <ScalarProperty Name="STOPPX" ColumnName="STOPPX" />
+                <ScalarProperty Name="ORDERVALUE" ColumnName="ORDERVALUE" />
+                <ScalarProperty Name="MAXFLOOR" ColumnName="MAXFLOOR" />
+                <ScalarProperty Name="TEXT" ColumnName="TEXT" />
+                <ScalarProperty Name="ACCTYPE" ColumnName="ACCTYPE" />
+                <ScalarProperty Name="STRATEGY" ColumnName="STRATEGY" />
+                <ScalarProperty Name="STARTTIME" ColumnName="STARTTIME" />
+                <ScalarProperty Name="ENDTIME" ColumnName="ENDTIME" />
+                <ScalarProperty Name="IDSOURCE" ColumnName="IDSOURCE" />
+                <ScalarProperty Name="SECURITYID" ColumnName="SECURITYID" />
+                <ScalarProperty Name="SECURITYEXCH" ColumnName="SECURITYEXCH" />
+                <ScalarProperty Name="PEGTYPE" ColumnName="PEGTYPE" />
+                <ScalarProperty Name="SENDINGTIME" ColumnName="SENDINGTIME" />
+                <ScalarProperty Name="TRIGGERTIME" ColumnName="TRIGGERTIME" />
+                <ScalarProperty Name="RECEIVETIME" ColumnName="RECEIVETIME" />
+                <ScalarProperty Name="SENDERCOMP" ColumnName="SENDERCOMP" />
+                <ScalarProperty Name="TARGETCOMP" ColumnName="TARGETCOMP" />
+                <ScalarProperty Name="ONBEHALF" ColumnName="ONBEHALF" />
+                <ScalarProperty Name="RULE80A" ColumnName="RULE80A" />
+                <ScalarProperty Name="SOURCE" ColumnName="SOURCE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2007/06/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="False" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="FirmTrailModel" ZoomLevel="56">
+        <EntityTypeShape EntityType="FirmTrailModel.FirmExecution" Width="1.5" PointX="0.75" PointY="0.75" Height="9.67234375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FirmTrailModel.FirmOrder" Width="1.5" PointX="2.75" PointY="0.75" Height="7.7493294270833335" IsExpanded="true" />
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

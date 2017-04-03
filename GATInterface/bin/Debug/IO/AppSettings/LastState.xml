@@ -1,0 +1,8 @@
+<AppState>
+	<CurrentView>Orders</CurrentView>
+	<DisplayDate>2014-02-27</DisplayDate>
+	<Filter>
+		<Column name="Account">71101</Column>
+		<Column name="Symbol">AGG</Column>
+	</Filter>
+</AppState>

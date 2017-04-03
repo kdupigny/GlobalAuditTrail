@@ -1,0 +1,31 @@
+# session definition
+[DEFAULT]
+FileLogPath=.\logs
+FileStorePath=.\sessionpersistence
+
+# This is in UTC.  7amEST + 5h = 12UTC.  7amEST daylight svgs + 4h = 11UTC.  
+#                  7pmEST + 5H = 24UTC.  7pmEST daylight svgs + 4h = 23UTC.  
+# We set the starttime/endtime to the outer interval 
+# so that no adjustment is needed during daylight svgs.
+# outer interval = 11UTC - 23UTC
+StartTime=00:00:01
+EndTime=23:59:59
+
+[SESSION]
+BeginString=FIX.4.2
+
+ConnectionType=initiator
+ReconnectInterval=60
+SenderCompID=WHITEBAY
+TargetCompID=MLTSP
+
+HeartBtInt=30
+SocketConnectPort=15745
+#SocketConnectHost=192.104.169.161
+SocketConnectHost=127.0.0.1
+UseDataDictionary=N
+DataDictionary=C:\RMG\FTen_Data_Dictionary_FIX42.xml
+MillisecondsInTimeStamp=Y
+ValidateUserDefinedFields=N
+ValidateFieldsOutOfOrder=N
+ValidateFieldsHaveValues=N

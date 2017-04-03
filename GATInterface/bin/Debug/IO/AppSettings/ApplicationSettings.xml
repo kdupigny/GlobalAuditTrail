@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MKTX xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<AppName>GAT_DB_Interface</AppName>
+	
+	<Databases>
+		<DbSettings>
+			<DbAppName>WBAuditDB</DbAppName>
+			<DbIsActive>false</DbIsActive>
+			<DbHost>127.0.0.1</DbHost>
+			<DbPort>3306</DbPort>
+			<DbUser>kevin</DbUser>
+			<DbPass>us3rpa55</DbPass>
+			<DbName>traillog</DbName>
+			<DbFillTable>execs</DbFillTable>
+			<DbOrderTable>ords</DbOrderTable>
+		</DbSettings>
+		<DbSettings>
+			<DbAppName>LocalDB</DbAppName>
+			<DbIsActive>true</DbIsActive>
+			<DbHost>127.0.0.1</DbHost>
+			<DbPort>3306</DbPort>
+			<DbUser>kevin</DbUser>
+			<DbPass>testing123</DbPass>
+			<DbName>firmtrail</DbName>
+			<DbFillTable>fills</DbFillTable>
+			<DbOrderTable>ords</DbOrderTable>
+		</DbSettings>
+		<DbSettings>
+			<DbAppName>RavenDB</DbAppName>
+			<DbIsActive>false</DbIsActive>
+			<DbHost>127.0.0.1</DbHost>
+			<DbPort>3306</DbPort>
+			<DbUser>kevin</DbUser>
+			<DbPass>us3rpa55</DbPass>
+			<DbName>trailtest</DbName>
+			<DbFillTable>execs</DbFillTable>
+			<DbOrderTable>ords</DbOrderTable>
+		</DbSettings>
+	</Databases>
+	
+	<Email>
+		<DefaultSubject>Summit Securities System RobotEmailer (Do not reply)</DefaultSubject>
+		
+		<EmailSender>
+			<ServerName>WBSystem</ServerName>
+			<MailServer>smtp.smarshconnect.com</MailServer>
+			<Port>587</Port>
+			<Username>system@ssgllc.com</Username>
+			<Password>password</Password>
+			<FromAddress>system@ssgllc.com</FromAddress>
+		</EmailSender>
+		
+		<MailingLists>
+			<MailingList>
+				<Name>Development</Name>
+				<EmailAddress>kdupigny@gmail.com</EmailAddress>
+				<!-- EmailAddress>dafna.weiner@gmail.com</EmailAddress -->
+			</MailingList>
+			<MailingList>
+				<Name>Compliance</Name>
+				<EmailAddress>kevin.dupigny@whitebaygroup.com</EmailAddress>
+				<EmailAddress>kdupigny@gmail.com</EmailAddress>
+			</MailingList>			
+			<MailingList>
+				<Name>MktxTrader</Name>
+				<EmailAddress>bross@whitebaypt.com</EmailAddress>
+			</MailingList>
+		</MailingLists>
+		<EmailJobs>
+			<EmailJob>
+				<JobName>SendDevelopmentAlert</JobName>
+				<!-- Application will supply {0} as Issue Date and {1} as Issue Summary -->
+				<Subject>GAT Interface Development Alert: {0} - {1}</Subject>
+				<!-- Application will supply {0} as exception Type, {1} exception message {2} as exception stack trace 
+				{3} as InnerException Message {4} InnerException stack Trace -->
+				<Body>
+					This message was sent from the SSGLLC GAT Interface
+GAT Interface Experienced the following issue [{0}] 
+
+Exception Message - {1}.
+{2}
+
+InnerException Message - {3}
+{4}
+				</Body>
+				<AttachmentExpected>No</AttachmentExpected>
+				<Recipients>
+					<List>Development</List>
+				</Recipients>
+			</EmailJob>
+			<EmailJob>
+				<JobName>SendComplianceAlert</JobName>
+				<!-- Application will supply {0} as Date and {1} Alert Summary -->
+				<Subject>GAT Interface Compliance Alert {0}: {1}</Subject>
+				<!-- Application will supply {0} as Detailed notice -->
+				<Body>
+					This message was sent from the SSGLLC GAT Interface.
+					
+This message is a notice to Compliance staff
+[
+{0}
+].
+				</Body>
+				<AttachmentExpected>Yes</AttachmentExpected>
+				<Recipients>
+					<List>Development</List>
+					<List>Compliance</List>
+				</Recipients>
+			</EmailJob>
+			<EmailJob>
+				<JobName>BusinessSideRejectAlertEmail</JobName>
+				<!-- Application will supply {0} as Application name and {1} the Fix Session Qualifier -->
+				<Subject>{0}: Rejected Message in Fix Session @ {1}</Subject>
+				<!-- Application will supply {0} as actual fix rejection message -->
+				<Body>Please investigate the rejection below [BREAK] FixMessage: {0}</Body>
+				<AttachmentExpected>No</AttachmentExpected>
+				<Recipients>
+					<List>Development</List>
+					<List>Compliance</List>
+				</Recipients>
+			</EmailJob>
+		</EmailJobs>
+	</Email>
+	
+	<Logging>
+		<LineLimit>500000</LineLimit>
+	</Logging>
+</MKTX>

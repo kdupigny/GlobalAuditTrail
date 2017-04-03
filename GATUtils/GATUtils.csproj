@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8D3519B1-077E-47C4-A288-CB38CB34E267}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GATUtils</RootNamespace>
+    <AssemblyName>GATUtils</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ftplib">
+      <HintPath>..\..\..\RavenDailyLogs\RavenMYSQL_API\bin\Debug\ftplib.dll</HintPath>
+    </Reference>
+    <Reference Include="InputSimulator, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=6.5.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\FixInitiator\bin\Debug\MySql.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="quickfix_net">
+      <HintPath>..\FixInitiator\bin\Debug\quickfix_net.dll</HintPath>
+    </Reference>
+    <Reference Include="quickfix_net_messages">
+      <HintPath>..\FixInitiator\bin\Debug\quickfix_net_messages.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Tamir.SharpSSH, Version=1.1.1.13, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Tamir.SharpSSH.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Connection\CommandPriority.cs" />
+    <Compile Include="Connection\DB\Commands\GenericDBCommand.cs" />
+    <Compile Include="Connection\DB\Commands\GetFillsByDateCommand.cs" />
+    <Compile Include="Connection\DB\Commands\InsertGeneralExecutionMessageCommand.cs" />
+    <Compile Include="Connection\DB\DbCmdType.cs" />
+    <Compile Include="Connection\DB\DbConnection.cs" />
+    <Compile Include="Connection\DB\DbHandle.cs" />
+    <Compile Include="Connection\DB\DBMessageQueue.cs" />
+    <Compile Include="Connection\DB\GATDataBaseException.cs" />
+    <Compile Include="Connection\DB\Commands\IDBCommand.cs" />
+    <Compile Include="Connection\DB\Models\DBFieldModel.cs" />
+    <Compile Include="Connection\DB\MySqlDbConnection.cs" />
+    <Compile Include="Connection\DB\SqlServerDbConnection.cs" />
+    <Compile Include="Connection\Email\EmailJobTypes.cs" />
+    <Compile Include="Connection\Email\OutboundEmail.cs" />
+    <Compile Include="Connection\Email\SystemMailer.cs" />
+    <Compile Include="Connection\FileTransfer\FileTransferControl.cs" />
+    <Compile Include="Connection\FileTransfer\FileTransferObject.cs" />
+    <Compile Include="Connection\FileTransfer\FtpFile.cs" />
+    <Compile Include="Connection\FileTransfer\FtpStatus.cs" />
+    <Compile Include="Connection\Fix\GatFixApplication.cs" />
+    <Compile Include="Connection\Fix\MlFixApplication.cs" />
+    <Compile Include="Connection\Fix\FixMessageLogParser.cs" />
+    <Compile Include="Connection\Fix\Handler.cs" />
+    <Compile Include="Connection\Fix\LimitOrders.cs" />
+    <Compile Include="Connection\Fix\OrderMaker.cs" />
+    <Compile Include="Connection\FileTransfer\Ftp.cs" />
+    <Compile Include="Connection\FileTransfer\IFtpHandle.cs" />
+    <Compile Include="Connection\FileTransfer\SftpUserInfo.cs" />
+    <Compile Include="Connection\FileTransfer\IRemoteFile.cs" />
+    <Compile Include="Connection\FileTransfer\Sftp.cs" />
+    <Compile Include="Connection\IConnection.cs" />
+    <Compile Include="Connection\Fix\Ssh\SshConnection.cs" />
+    <Compile Include="Fix\FixConstants.cs" />
+    <Compile Include="Fix\FixFieldValueConverter.cs" />
+    <Compile Include="Fix\FixTag.cs" />
+    <Compile Include="Fix\GATFixMessage.cs" />
+    <Compile Include="Generic\GatLoggerSettings.cs" />
+    <Compile Include="Generic\WBCommandServerPresets.cs" />
+    <Compile Include="Generic\WBCommandServerSettings.cs" />
+    <Compile Include="Generic\DBSettings.cs" />
+    <Compile Include="Generic\GATException.cs" />
+    <Compile Include="Generic\WBCommandClientSettings.cs" />
+    <Compile Include="Generic\WBEmailSettings.cs" />
+    <Compile Include="Logger\GatLogger.cs" />
+    <Compile Include="Logger\LogPackage.cs" />
+    <Compile Include="Types\Custom\DictionaryExtensions.cs" />
+    <Compile Include="Types\DataModels\DbQueryDataSource.cs" />
+    <Compile Include="Types\Report\GlobalReportEnums.cs" />
+    <Compile Include="Types\Report\IReport.cs" />
+    <Compile Include="Types\Report\WbTechReport.cs" />
+    <Compile Include="Types\SQL\WbVconExecutionQueryBuilder.cs" />
+    <Compile Include="Utilities\DB\GenericDbObjectHandler.cs" />
+    <Compile Include="Utilities\FileUtils\GATExcelWriter.cs" />
+    <Compile Include="Utilities\MyTime.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Types\Email\EmailJobFactory.cs" />
+    <Compile Include="Types\Email\EmailJobTypes.cs" />
+    <Compile Include="Types\Email\GeneralEmailJob.cs" />
+    <Compile Include="Types\Email\IEmailJob.cs" />
+    <Compile Include="Types\Email\MKTXFixApplication\BusinessSideRejectAlertEmail.cs" />
+    <Compile Include="Types\GeneralThreadSafeQueue.cs" />
+    <Compile Include="Types\SQL\WbAuditTrailExecutionQueryBuilder.cs" />
+    <Compile Include="Types\ThreadSafeMultiQueue.cs" />
+    <Compile Include="Utilities\DataTableUtils.cs" />
+    <Compile Include="Utilities\EnumComparer.cs" />
+    <Compile Include="Utilities\EnumUtil.cs" />
+    <Compile Include="Utilities\FileUtils\GATFile.cs" />
+    <Compile Include="Utilities\Windows\Manipulation\Win32Handle.cs" />
+    <Compile Include="Utilities\Windows\Manipulation\WindowController.cs" />
+    <Compile Include="XML\StringQueryObj.cs" />
+    <Compile Include="XML\XmlQueries.cs" />
+    <Compile Include="XML\XmlSettings.cs" />
+    <Compile Include="XML\XmlTools.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

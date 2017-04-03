@@ -1,0 +1,800 @@
+00010101-12:00:00.000:  Pulling today's position files.
+00010101-12:00:00.000:  Ftp Session usr_vtbullseye@54.245.114.32 [FtpConnection] connected successfully
+00010101-12:00:00.000:  FTP Handle successfully created for usr_vtbullseye@54.245.114.32 [FtpConnection]
+00010101-12:00:00.000:  Could not resolve path FTP file pposition30780.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition30780.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition30780.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71101.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71101.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71101.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71102.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71102.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71102.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71111.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71111.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71111.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71112.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71112.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71112.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71113.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71113.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71113.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71114.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71114.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71114.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71115.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71115.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71115.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71116.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71116.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71116.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71117.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71117.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71117.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71118.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71118.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71118.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71119.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71119.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71119.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71120.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71120.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71120.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71121.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71121.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71121.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71122.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71122.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71122.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71123.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71123.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71123.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71124.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71124.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71124.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71125.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71125.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71125.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71126.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71126.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71126.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71127.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71127.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71127.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71128.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71128.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71128.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71129.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71129.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71129.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71130.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71130.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71130.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71131.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71131.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71131.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71140.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71140.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71140.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71141.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71141.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71141.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71142.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71142.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71142.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71150.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71150.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71150.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71151.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71151.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71151.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71152.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71152.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71152.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71153.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71153.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71153.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71154.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71154.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71154.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71155.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71155.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71155.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71156.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71156.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71156.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71157.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71157.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71157.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71158.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71158.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71158.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71176.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71176.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71176.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71177.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71177.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71177.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71178.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71178.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71178.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71179.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71179.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71179.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71180.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71180.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71180.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71181.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71181.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71181.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71182.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71182.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71182.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71197.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71197.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71197.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Found file pposition30780.150106.csv
+00010101-12:00:00.000:  Found file pposition71101.150106.csv
+00010101-12:00:00.000:  Found file pposition71102.150106.csv
+00010101-12:00:00.000:  Found file pposition71111.150106.csv
+00010101-12:00:00.000:  Found file pposition71112.150106.csv
+00010101-12:00:00.000:  Found file pposition71113.150106.csv
+00010101-12:00:00.000:  Found file pposition71114.150106.csv
+00010101-12:00:00.000:  Found file pposition71115.150106.csv
+00010101-12:00:00.000:  Found file pposition71116.150106.csv
+00010101-12:00:00.000:  Found file pposition71117.150106.csv
+00010101-12:00:00.000:  Found file pposition71118.150106.csv
+00010101-12:00:00.000:  Found file pposition71119.150106.csv
+00010101-12:00:00.000:  Found file pposition71120.150106.csv
+00010101-12:00:00.000:  Found file pposition71121.150106.csv
+00010101-12:00:00.000:  Found file pposition71122.150106.csv
+00010101-12:00:00.000:  Found file pposition71123.150106.csv
+00010101-12:00:00.000:  Found file pposition71124.150106.csv
+00010101-12:00:00.000:  Found file pposition71125.150106.csv
+00010101-12:00:00.000:  Found file pposition71126.150106.csv
+00010101-12:00:00.000:  Found file pposition71127.150106.csv
+00010101-12:00:00.000:  Found file pposition71128.150106.csv
+00010101-12:00:00.000:  Found file pposition71129.150106.csv
+00010101-12:00:00.000:  Found file pposition71130.150106.csv
+00010101-12:00:00.000:  Found file pposition71131.150106.csv
+00010101-12:00:00.000:  Found file pposition71140.150106.csv
+00010101-12:00:00.000:  Found file pposition71141.150106.csv
+00010101-12:00:00.000:  Found file pposition71142.150106.csv
+00010101-12:00:00.000:  Found file pposition71150.150106.csv
+00010101-12:00:00.000:  Found file pposition71151.150106.csv
+00010101-12:00:00.000:  Found file pposition71152.150106.csv
+00010101-12:00:00.000:  Found file pposition71153.150106.csv
+00010101-12:00:00.000:  Found file pposition71154.150106.csv
+00010101-12:00:00.000:  Found file pposition71155.150106.csv
+00010101-12:00:00.000:  Found file pposition71156.150106.csv
+00010101-12:00:00.000:  Found file pposition71157.150106.csv
+00010101-12:00:00.000:  Found file pposition71158.150106.csv
+00010101-12:00:00.000:  Found file pposition71176.150106.csv
+00010101-12:00:00.000:  Found file pposition71177.150106.csv
+00010101-12:00:00.000:  Found file pposition71178.150106.csv
+00010101-12:00:00.000:  Found file pposition71179.150106.csv
+00010101-12:00:00.000:  Found file pposition71180.150106.csv
+00010101-12:00:00.000:  Found file pposition71181.150106.csv
+00010101-12:00:00.000:  Found file pposition71182.150106.csv
+00010101-12:00:00.000:  Found file pposition71197.150106.csv
+00010101-12:00:00.000:  DB Queue has messages please do not exit.
+00010101-12:00:00.000:  DB COMMAND ERROR (retries [3]): 
+SELECT * FROM firmtrail.fills WHERE DATE>='2015-01-06' AND DATE<='2015-01-06'; 
+Authentication to host '127.0.0.1' for user 'kevin' using method 'mysql_native_password' failed with message: Access denied for user 'kevin'@'localhost' (using password: YES) 
+		    at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at GATUtils.Connection.DB.MySqlDbConnection._Connect(Int32 attempt) in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\MySqlDbConnection.cs:line 146
+   at GATUtils.Connection.DB.MySqlDbConnection.Connect() in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\MySqlDbConnection.cs:line 114
+   at GATUtils.Connection.DB.MySqlDbConnection.RunQuery(String query) in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\MySqlDbConnection.cs:line 79
+   at GATUtils.Connection.DB.Commands.GetFillsByDateCommand.Execute(DbConnection dbConnection) in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\Commands\GetFillsByDateCommand.cs:line 52
+00010101-12:00:00.000:  DB COMMAND ERROR (retries [2]): 
+SELECT * FROM firmtrail.fills WHERE DATE>='2015-01-06' AND DATE<='2015-01-06'; 
+Authentication to host '127.0.0.1' for user 'kevin' using method 'mysql_native_password' failed with message: Access denied for user 'kevin'@'localhost' (using password: YES) 
+		    at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at GATUtils.Connection.DB.MySqlDbConnection._Connect(Int32 attempt) in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\MySqlDbConnection.cs:line 146
+   at GATUtils.Connection.DB.MySqlDbConnection.Connect() in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\MySqlDbConnection.cs:line 114
+   at GATUtils.Connection.DB.MySqlDbConnection.RunQuery(String query) in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\MySqlDbConnection.cs:line 79
+   at GATUtils.Connection.DB.Commands.GetFillsByDateCommand.Execute(DbConnection dbConnection) in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\Commands\GetFillsByDateCommand.cs:line 52
+00010101-12:00:00.000:  DB COMMAND ERROR (retries [1]): 
+SELECT * FROM firmtrail.fills WHERE DATE>='2015-01-06' AND DATE<='2015-01-06'; 
+Authentication to host '127.0.0.1' for user 'kevin' using method 'mysql_native_password' failed with message: Access denied for user 'kevin'@'localhost' (using password: YES) 
+		    at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at GATUtils.Connection.DB.MySqlDbConnection._Connect(Int32 attempt) in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\MySqlDbConnection.cs:line 146
+   at GATUtils.Connection.DB.MySqlDbConnection.Connect() in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\MySqlDbConnection.cs:line 114
+   at GATUtils.Connection.DB.MySqlDbConnection.RunQuery(String query) in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\MySqlDbConnection.cs:line 79
+   at GATUtils.Connection.DB.Commands.GetFillsByDateCommand.Execute(DbConnection dbConnection) in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\Commands\GetFillsByDateCommand.cs:line 52
+00010101-12:00:00.000:  DB COMMAND ERROR (retries [0]): 
+SELECT * FROM firmtrail.fills WHERE DATE>='2015-01-06' AND DATE<='2015-01-06'; 
+Authentication to host '127.0.0.1' for user 'kevin' using method 'mysql_native_password' failed with message: Access denied for user 'kevin'@'localhost' (using password: YES) 
+		    at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at GATUtils.Connection.DB.MySqlDbConnection._Connect(Int32 attempt) in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\MySqlDbConnection.cs:line 146
+   at GATUtils.Connection.DB.MySqlDbConnection.Connect() in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\MySqlDbConnection.cs:line 114
+   at GATUtils.Connection.DB.MySqlDbConnection.RunQuery(String query) in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\MySqlDbConnection.cs:line 79
+   at GATUtils.Connection.DB.Commands.GetFillsByDateCommand.Execute(DbConnection dbConnection) in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\Commands\GetFillsByDateCommand.cs:line 52
+00010101-12:00:00.000:  DB Queue is empty.  You can exit at anytime.
+00010101-12:00:00.000:  Pulling today's position files.
+00010101-12:00:00.000:  Ftp Session usr_vtbullseye@54.245.114.32 [FtpConnection] connected successfully
+00010101-12:00:00.000:  FTP Handle successfully created for usr_vtbullseye@54.245.114.32 [FtpConnection]
+00010101-12:00:00.000:  Could not resolve path FTP file pposition30780.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition30780.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition30780.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71101.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71101.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71101.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71102.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71102.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71102.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71111.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71111.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71111.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71112.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71112.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71112.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71113.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71113.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71113.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71114.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71114.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71114.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71115.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71115.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71115.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71116.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71116.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71116.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71117.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71117.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71117.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71118.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71118.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71118.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71119.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71119.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71119.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71120.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71120.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71120.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71121.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71121.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71121.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71122.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71122.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71122.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71123.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71123.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71123.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71124.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71124.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71124.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71125.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71125.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71125.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71126.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71126.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71126.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71127.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71127.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71127.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71128.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71128.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71128.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71129.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71129.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71129.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71130.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71130.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71130.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71131.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71131.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71131.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71140.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71140.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71140.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71141.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71141.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71141.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71142.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71142.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71142.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71150.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71150.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71150.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71151.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71151.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71151.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71152.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71152.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71152.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71153.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71153.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71153.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71154.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71154.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71154.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71155.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71155.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71155.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71156.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71156.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71156.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71157.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71157.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71157.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71158.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71158.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71158.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71176.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71176.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71176.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71177.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71177.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71177.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71178.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71178.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71178.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71179.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71179.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71179.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71180.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71180.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71180.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71181.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71181.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71181.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71182.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71182.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71182.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71197.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71197.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71197.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Pulling today's position files.
+00010101-12:00:00.000:  Ftp Session usr_vtbullseye@54.245.114.32 [FtpConnection] connected successfully
+00010101-12:00:00.000:  FTP Handle successfully created for usr_vtbullseye@54.245.114.32 [FtpConnection]
+00010101-12:00:00.000:  Could not resolve path FTP file pposition30780.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition30780.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition30780.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71101.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71101.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71101.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71102.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Pulling today's position files.
+00010101-12:00:00.000:  Ftp Session usr_vtbullseye@54.245.114.32 [FtpConnection] connected successfully
+00010101-12:00:00.000:  FTP Handle successfully created for usr_vtbullseye@54.245.114.32 [FtpConnection]
+00010101-12:00:00.000:  Could not resolve path FTP file pposition30780.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition30780.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition30780.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71101.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71101.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71101.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71102.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71102.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71102.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71111.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71111.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71111.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71112.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71112.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71112.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71113.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71113.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71113.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71114.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71114.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71114.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71115.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71115.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71115.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71116.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71116.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71116.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71117.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71117.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71117.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71118.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71118.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71118.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71119.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71119.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71119.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71120.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71120.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71120.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71121.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71121.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71121.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71122.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71122.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71122.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71123.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71123.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71123.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71124.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71124.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71124.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71125.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71125.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71125.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71126.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71126.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71126.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71127.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71127.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71127.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71128.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71128.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71128.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71129.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71129.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71129.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71130.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71130.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71130.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71131.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71131.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71131.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71140.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71140.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71140.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71141.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71141.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71141.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71142.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71142.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71142.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71150.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71150.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71150.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71151.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71151.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71151.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71152.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71152.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71152.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71153.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71153.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71153.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71154.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71154.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71154.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71155.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71155.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71155.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71156.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71156.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71156.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71157.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71157.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71157.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71158.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71158.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71158.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71176.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71176.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71176.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71177.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71177.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71177.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71178.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71178.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71178.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71179.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71179.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71179.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71180.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71180.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71180.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71181.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71181.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71181.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71182.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71182.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71182.150106.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71197.150102.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71197.150105.csv, setting to current Directory
+00010101-12:00:00.000:  Could not resolve path FTP file pposition71197.150106.csv, setting to current Directory
+00010101-12:00:00.000:  DB Queue has messages please do not exit.
+00010101-12:00:00.000:  DB COMMAND ERROR (retries [3]): 
+SELECT * FROM firmtrail.fills WHERE DATE>='2014-02-27' AND DATE<='2014-02-27'; 
+Authentication to host '127.0.0.1' for user 'kevin' using method 'mysql_native_password' failed with message: Access denied for user 'kevin'@'localhost' (using password: YES) 
+		    at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at GATUtils.Connection.DB.MySqlDbConnection._Connect(Int32 attempt) in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\MySqlDbConnection.cs:line 146
+   at GATUtils.Connection.DB.MySqlDbConnection.Connect() in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\MySqlDbConnection.cs:line 114
+   at GATUtils.Connection.DB.MySqlDbConnection.RunQuery(String query) in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\MySqlDbConnection.cs:line 79
+   at GATUtils.Connection.DB.Commands.GetFillsByDateCommand.Execute(DbConnection dbConnection) in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\Commands\GetFillsByDateCommand.cs:line 52
+00010101-12:00:00.000:  DB COMMAND ERROR (retries [2]): 
+SELECT * FROM firmtrail.fills WHERE DATE>='2014-02-27' AND DATE<='2014-02-27'; 
+Authentication to host '127.0.0.1' for user 'kevin' using method 'mysql_native_password' failed with message: Access denied for user 'kevin'@'localhost' (using password: YES) 
+		    at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at GATUtils.Connection.DB.MySqlDbConnection._Connect(Int32 attempt) in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\MySqlDbConnection.cs:line 146
+   at GATUtils.Connection.DB.MySqlDbConnection.Connect() in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\MySqlDbConnection.cs:line 114
+   at GATUtils.Connection.DB.MySqlDbConnection.RunQuery(String query) in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\MySqlDbConnection.cs:line 79
+   at GATUtils.Connection.DB.Commands.GetFillsByDateCommand.Execute(DbConnection dbConnection) in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\Commands\GetFillsByDateCommand.cs:line 52
+00010101-12:00:00.000:  DB COMMAND ERROR (retries [1]): 
+SELECT * FROM firmtrail.fills WHERE DATE>='2014-02-27' AND DATE<='2014-02-27'; 
+Authentication to host '127.0.0.1' for user 'kevin' using method 'mysql_native_password' failed with message: Access denied for user 'kevin'@'localhost' (using password: YES) 
+		    at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at GATUtils.Connection.DB.MySqlDbConnection._Connect(Int32 attempt) in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\MySqlDbConnection.cs:line 146
+   at GATUtils.Connection.DB.MySqlDbConnection.Connect() in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\MySqlDbConnection.cs:line 114
+   at GATUtils.Connection.DB.MySqlDbConnection.RunQuery(String query) in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\MySqlDbConnection.cs:line 79
+   at GATUtils.Connection.DB.Commands.GetFillsByDateCommand.Execute(DbConnection dbConnection) in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\Commands\GetFillsByDateCommand.cs:line 52
+00010101-12:00:00.000:  DB COMMAND ERROR (retries [0]): 
+SELECT * FROM firmtrail.fills WHERE DATE>='2014-02-27' AND DATE<='2014-02-27'; 
+Authentication to host '127.0.0.1' for user 'kevin' using method 'mysql_native_password' failed with message: Access denied for user 'kevin'@'localhost' (using password: YES) 
+		    at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at GATUtils.Connection.DB.MySqlDbConnection._Connect(Int32 attempt) in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\MySqlDbConnection.cs:line 146
+   at GATUtils.Connection.DB.MySqlDbConnection.Connect() in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\MySqlDbConnection.cs:line 114
+   at GATUtils.Connection.DB.MySqlDbConnection.RunQuery(String query) in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\MySqlDbConnection.cs:line 79
+   at GATUtils.Connection.DB.Commands.GetFillsByDateCommand.Execute(DbConnection dbConnection) in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\Commands\GetFillsByDateCommand.cs:line 52
+00010101-12:00:00.000:  DB Queue is empty.  You can exit at anytime.
+00010101-12:00:00.000:  DB Queue has messages please do not exit.
+00010101-12:00:00.000:  DB COMMAND ERROR (retries [3]): 
+SELECT * FROM firmtrail.fills WHERE DATE>='2015-01-06' AND DATE<='2015-01-06'; 
+Authentication to host '127.0.0.1' for user 'kevin' using method 'mysql_native_password' failed with message: Access denied for user 'kevin'@'localhost' (using password: YES) 
+		    at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at GATUtils.Connection.DB.MySqlDbConnection._Connect(Int32 attempt) in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\MySqlDbConnection.cs:line 146
+   at GATUtils.Connection.DB.MySqlDbConnection.Connect() in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\MySqlDbConnection.cs:line 114
+   at GATUtils.Connection.DB.MySqlDbConnection.RunQuery(String query) in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\MySqlDbConnection.cs:line 79
+   at GATUtils.Connection.DB.Commands.GetFillsByDateCommand.Execute(DbConnection dbConnection) in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\Commands\GetFillsByDateCommand.cs:line 52
+00010101-12:00:00.000:  DB COMMAND ERROR (retries [2]): 
+SELECT * FROM firmtrail.fills WHERE DATE>='2015-01-06' AND DATE<='2015-01-06'; 
+Authentication to host '127.0.0.1' for user 'kevin' using method 'mysql_native_password' failed with message: Access denied for user 'kevin'@'localhost' (using password: YES) 
+		    at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at GATUtils.Connection.DB.MySqlDbConnection._Connect(Int32 attempt) in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\MySqlDbConnection.cs:line 146
+   at GATUtils.Connection.DB.MySqlDbConnection.Connect() in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\MySqlDbConnection.cs:line 114
+   at GATUtils.Connection.DB.MySqlDbConnection.RunQuery(String query) in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\MySqlDbConnection.cs:line 79
+   at GATUtils.Connection.DB.Commands.GetFillsByDateCommand.Execute(DbConnection dbConnection) in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\Commands\GetFillsByDateCommand.cs:line 52
+00010101-12:00:00.000:  DB COMMAND ERROR (retries [1]): 
+SELECT * FROM firmtrail.fills WHERE DATE>='2015-01-06' AND DATE<='2015-01-06'; 
+Authentication to host '127.0.0.1' for user 'kevin' using method 'mysql_native_password' failed with message: Access denied for user 'kevin'@'localhost' (using password: YES) 
+		    at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at GATUtils.Connection.DB.MySqlDbConnection._Connect(Int32 attempt) in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\MySqlDbConnection.cs:line 146
+   at GATUtils.Connection.DB.MySqlDbConnection.Connect() in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\MySqlDbConnection.cs:line 114
+   at GATUtils.Connection.DB.MySqlDbConnection.RunQuery(String query) in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\MySqlDbConnection.cs:line 79
+   at GATUtils.Connection.DB.Commands.GetFillsByDateCommand.Execute(DbConnection dbConnection) in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\Commands\GetFillsByDateCommand.cs:line 52
+00010101-12:00:00.000:  DB COMMAND ERROR (retries [0]): 
+SELECT * FROM firmtrail.fills WHERE DATE>='2015-01-06' AND DATE<='2015-01-06'; 
+Authentication to host '127.0.0.1' for user 'kevin' using method 'mysql_native_password' failed with message: Access denied for user 'kevin'@'localhost' (using password: YES) 
+		    at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at GATUtils.Connection.DB.MySqlDbConnection._Connect(Int32 attempt) in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\MySqlDbConnection.cs:line 146
+   at GATUtils.Connection.DB.MySqlDbConnection.Connect() in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\MySqlDbConnection.cs:line 114
+   at GATUtils.Connection.DB.MySqlDbConnection.RunQuery(String query) in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\MySqlDbConnection.cs:line 79
+   at GATUtils.Connection.DB.Commands.GetFillsByDateCommand.Execute(DbConnection dbConnection) in C:\Users\Kevin Dupigny\Documents\Visual Studio 2010\Projects\GlobalAuditTrail\GATUtils\Connection\DB\Commands\GetFillsByDateCommand.cs:line 52
+00010101-12:00:00.000:  DB Queue is empty.  You can exit at anytime.
+00010101-12:00:00.000:  1 New executions found
+00010101-12:00:00.000:  3105 New executions found
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  GUI Error (Non-negative number required.
+Parameter name: count
+00010101-12:00:00.000:  3105 New executions found
+00010101-12:00:00.000:  3105 New executions found
+00010101-12:00:00.000:  -171 New executions found
+00010101-12:00:00.000:  3105 New executions found
+00010101-12:00:00.000:  -171 New executions found
+00010101-12:00:00.000:  -2934 New executions found
+00010101-12:00:00.000:  6155 New executions found
+00010101-12:00:00.000:  3105 New executions found
+00010101-12:00:00.000:  3105 New executions found
+00010101-12:00:00.000:  -171 New executions found
+00010101-12:00:00.000:  -2934 New executions found
+00010101-12:00:00.000:  3095 New executions found
+00010101-12:00:00.000:  -1479 New executions found
+00010101-12:00:00.000:  7264 New executions found
+00010101-12:00:00.000:  3105 New executions found
+00010101-12:00:00.000:  -171 New executions found
+00010101-12:00:00.000:  3105 New executions found
+00010101-12:00:00.000:  -171 New executions found
+00010101-12:00:00.000:  161 New executions found
+00010101-12:00:00.000:  3105 New executions found
+00010101-12:00:00.000:  -171 New executions found
+00010101-12:00:00.000:  3105 New executions found
+00010101-12:00:00.000:  3105 New executions found
+00010101-12:00:00.000:  -171 New executions found
+00010101-12:00:00.000:  161 New executions found
+00010101-12:00:00.000:  3105 New executions found
+00010101-12:00:00.000:  3105 New executions found
